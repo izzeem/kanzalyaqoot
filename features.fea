@@ -1839,16 +1839,8 @@ lookup rligRequiredLigaturesinArabiclookup46 {
 } rligRequiredLigaturesinArabiclookup46;
 
 feature aalt {
-
- script arab;
-     language dflt ;
-      lookup aaltAccessAllAlternateslookup0;
-      lookup aaltAccessAllAlternateslookup1;
-
- script latn;
-     language dflt ;
-      lookup aaltAccessAllAlternateslookup0;
-      lookup aaltAccessAllAlternateslookup1;
+    lookup aaltAccessAllAlternateslookup0;
+    lookup aaltAccessAllAlternateslookup1;
 } aalt;
 
 feature ccmp {
